@@ -1,7 +1,5 @@
 "use client";
 
-import Image from "next/image";
-
 const PROFILE = {
   name: "Achal Sharma",
   role: "Freelancer · Frontend Developer",
@@ -92,7 +90,7 @@ export default function Home() {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div>
             <p className="text-slate-500">Hello!</p>
-            <h1 className="text-4xl md:text-6xl font-extrabold leading-tight tracking-tight mt-2">I'm {PROFILE.name}</h1>
+            <h1 className="text-4xl md:text-6xl font-extrabold leading-tight tracking-tight mt-2">I&apos;m {PROFILE.name}</h1>
             <p className="mt-4 text-lg text-slate-600 max-w-2xl">{PROFILE.summary}</p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href={`mailto:${PROFILE.email}`} className="px-4 py-2 rounded-xl bg-black text-white text-sm">Message me</a>
